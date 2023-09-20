@@ -5,7 +5,7 @@ struct s_person {
     char name[50];
     int age;
 };
-
+ //create a new type
 typedef struct s_person t_person;
 
 void print_person(t_person person);
